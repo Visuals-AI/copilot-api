@@ -326,6 +326,21 @@ You can find more options here: [Claude Code settings](https://docs.anthropic.co
 
 You can also read more about IDE integration here: [Add Claude Code to your IDE](https://docs.anthropic.com/en/docs/claude-code/ide-integrations)
 
+## Using with New-API Gateway
+
+This proxy can be integrated with [New-API](https://github.com/Calcium-Ion/new-api), an OpenAI-compatible API gateway that supports multi-channel aggregation, load balancing, and model mapping.
+
+For complete step-by-step instructions on deploying copilot-api with new-api using Docker Compose, including network configuration, startup order, GitHub device authorization, and channel setup, see:
+
+**📖 [SOP.md - Chinese Integration Guide](./SOP.md)**
+
+The guide covers:
+- Docker network setup between copilot-api and new-api
+- Correct startup sequence (new-api must start first)
+- GitHub device authorization workflow
+- New-API channel configuration with exact field values
+- Model recommendations and troubleshooting
+
 ## Running from Source
 
 The project can be run from source in several ways:
